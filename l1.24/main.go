@@ -23,5 +23,6 @@ func (p *Pointer) Distance(q *Pointer) float64 {
 func main() {
 	point1 := NewPointer(0, 0)
 	point2 := NewPointer(3.0, 4.0)
+
 	fmt.Println(point2.Distance(point1))
 }
